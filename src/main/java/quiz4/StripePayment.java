@@ -6,9 +6,9 @@ public class StripePayment {
     private double paymentAmount;
     private String cardholderName;
     private String cardNumber;
-    private Date expirationDate;
+    private String expirationDate;
     
-    public StripePayment(double paymentAmount, String cardholderName, String cardNumber, Date expirationDate) {
+    public StripePayment(double paymentAmount, String cardholderName, String cardNumber, String expirationDate) {
         this.paymentAmount = paymentAmount;
         this.cardholderName = cardholderName;
         this.cardNumber = cardNumber;
