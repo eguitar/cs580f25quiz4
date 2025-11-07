@@ -1,7 +1,5 @@
 package quiz4;
 
-import java.util.*;
-
 public class StripePayment {
     private double paymentAmount;
     private String cardholderName;
