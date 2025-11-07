@@ -16,6 +16,11 @@ public class StripePayment {
     }
 
     public void processPayment() {
-        
+        System.out.println("Thank you for the payment processed!" +
+                            "\nPayment Information Confirmation: " + 
+                            "\nPayment Amount: $" + paymentAmount +
+                            "\nCardholder Name: $" + cardholderName +
+                            "\nCard Number: $" + cardNumber +
+                            "\nExpiration Date: $" + expirationDate);
     }
 }

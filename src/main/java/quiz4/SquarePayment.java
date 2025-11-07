@@ -1,18 +1,18 @@
 package quiz4;
 
-public class PayPalPayment {
+public class SquarePayment {
     private double paymentAmount;
-    private String userEmail;
+    private String locationID;
 
-    public PayPalPayment(double paymentAmount, String userEmail) {
+    public SquarePayment(double paymentAmount, String locationID) {
         this.paymentAmount = paymentAmount;
-        this.userEmail = userEmail;
+        this.locationID = locationID;
     }
 
     public void processPayment() {
         System.out.println("Thank you for the payment processed!" +
                             "\nPayment Information Confirmation: " + 
                             "\nPayment Amount: $" + paymentAmount +
-                            "\nUser Email: " + userEmail);
+                            "\nLocation ID: " + locationID);
     }
 }
