@@ -1,5 +1,5 @@
 package quiz4;
 
-public class PaymentGateway {
-    
+public interface PaymentGateway {
+    void processPayment();
 }
